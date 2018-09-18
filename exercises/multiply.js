@@ -10,6 +10,22 @@
 
 // Your code :
 
+function multiply(x, y){
+    const absX  = Math.abs(x)
+    let resultat = 0
+    let i = 0
+
+    while (i < absX){
+      i++
+      resultat += y
+    }
+    if (x<0){
+    return -resultat
+    }
+    return resultat
+ }
+
+
 //* Begin of tests
 const assert = require('assert')
 

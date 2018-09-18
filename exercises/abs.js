@@ -11,6 +11,11 @@
 
 // Your code :
 
+function abs(number){
+    const x = number * number
+    return Math.sqrt(x)
+}
+
 //* Begin of tests
 const assert = require('assert')
 

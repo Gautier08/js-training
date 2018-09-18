@@ -7,7 +7,18 @@
  */
 
 
-//* Begin of tests
+// Your code :
+
+function total(numbers){
+    let total = 0
+    for (let i = 0; i < numbers.length; i++){
+        total += numbers[i]
+    }
+    return (total)
+}
+
+
+ //* Begin of tests
 const assert = require('assert')
 
 assert.strictEqual(typeof total, 'function')
