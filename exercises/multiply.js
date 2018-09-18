@@ -23,7 +23,7 @@ function multiply(x, y){
     return -resultat
     }
     return resultat
- }
+ } 
 
 
 //* Begin of tests
